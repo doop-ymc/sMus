@@ -35,50 +35,59 @@ div.login {
 }
 
 .loginbutton {
-    width: 5.2em;
-    padding: 1em;
+    width: 3.2em;
+    padding: 0.2em;
     text-align: center;
-    height: 1.6em;
-    margin: 4.9em auto;
+    height: 1.3em;
+    margin: 1.9em auto;
+    position:absolute;
+    right:18%;
+    top:20%;
     background: #8f3333;
     cursor: pointer;
-    font-size: 2em;
+    font-size: 4em;
     text-decoration: underline;
     transition: 1s ease-in-out;
 
 }
 
 form {
-    display: none;
-    margin: -12em auto;
-    position: relative;
-    padding: 0.5em;
-    width: 31em;
-    font-size: 0.7em;
+    display:none;
+    margin:-4.4em auto;
+    position: absolute;
+    top:45%;
+    right:14%;
+    padding: 0.1em;
+    width: auto;
+    height:1.2em;
+    font-size: 1.5em;
+    /* background-color:#ffffff; */
 
 }
 
 form div {
-    transition: .5s ease-in-out;
+    transition: 1s ease-in-out;
     display: inline-block;
 
 }
 
 form div label {
-    display: block;
+    display: block; 
 
 }
 
 form div input[type="text"], form div input[type="password"] {
     background: #b3b3b3;
     border: 0.1em solid #b3b3b3;
-    width: 8.1em;
+    width: 14.1em;
+    font-size:0.5em;
+    height:2em;
 
 }
 
 form div {
-    padding: 0.5em;
-    margin: 0 0.15em;
+    padding: 0.6em;
+    margin: 0 0.05em;
 
 }
 
@@ -89,14 +98,14 @@ form div input[type="text"]:focus, form div input[type="password"]:focus {
 }
 
 .activeloginbutton {
-    transform: rotate(360deg) translate(-105%);
-
+    transform: rotate(360deg) translate(-150%);
+    
 }
 
 .credit {
     position: absolute;
     bottom: 0;
-    margin: 1em;
+    margin: 0.1em;
 
 }
 
