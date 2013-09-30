@@ -33,27 +33,36 @@ div.login {
     text-transform: uppercase;
    
 }
-
-.loginbutton {
+small{
+    font-size:2em;
+}
+.login-container{
+    position:absolute;
+    /* right:0; */
+    background-color:#ffffff;
+    text-align:right;
+}    
+.login-container .loginbutton {
     width: 3.2em;
-    padding: 0.2em;
+    padding: -0.2em;
     text-align: center;
     height: 1.3em;
-    margin: 1.9em auto;
-    position:absolute;
+    margin: -0.2em auto;
+    /* position:absolute;
     right:18%;
-    top:20%;
+    top:20%; */
     background: #8f3333;
     cursor: pointer;
     font-size: 4em;
     text-decoration: underline;
+    /* border-radius:15px; */
     transition: 1s ease-in-out;
 
 }
 
 form {
     display:none;
-    margin:-4.4em auto;
+    margin:-5em auto;
     position: absolute;
     top:45%;
     right:14%;
@@ -68,6 +77,7 @@ form {
 form div {
     transition: 1s ease-in-out;
     display: inline-block;
+    border-radius:5px;
 
 }
 
