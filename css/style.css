@@ -1,0 +1,148 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+
+/* zocial */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+
+h2 {
+  color:rgba(255,255,255,.8);
+  margin-left:12px;
+}
+
+body {
+  background: #272125;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+form {
+  position:absolute;
+  margin: -80px auto;
+  right:18%;
+  top:492px;
+  width: 225px;
+  /* height: auto; */
+  /* background:#f00fff; */
+  display:none;
+}
+form div{
+  display:inline-block; 
+  transition:0.5s ease-in-out;
+
+}
+
+input {
+  padding: 2px;
+  border-radius:2px;
+  border:0px;
+  background: rgba(255,255,255,.2);
+  display: block;
+  width: 180px;  
+  color:white;
+  font-size:12px;
+  height: 28px;
+  margin:5px;
+}
+
+input:focus {
+  outline-color: rgba(0,0,0,0);
+  background: rgba(255,255,255,.95);
+  color: #e74c3c;
+}
+
+.button {
+  /* float:right; */
+  position:absolute;
+  right:0px;
+  height: 62px;
+  width: 30px;
+  border: 0px;
+  text-align:center;
+  background: #e74c3c;
+  border-radius:2px;
+  color:white;
+  cursor:pointer;
+  margin:5px;
+  font-size:19px;
+  vertical-align:top;
+  line-height:60px;
+  font-style:bold;
+  font-family: 'entypo', sans-serif;
+}
+.button:hover{
+    background:#0000ff;
+}
+.divloginbtncontainer{
+  background:  #7c2c2c;
+  text-align:center;
+  height: 68px;
+  width: 75px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  border-radius:5px;
+  color: #c6adad;
+  position:absolute;
+  right:18%;
+  top:300px;
+
+}
+.divloginbtn{
+  text-align:center;
+  vertical-align:middle;
+  font-family: 'entypo', sans-serif;
+  text-decoration: underline;
+  transition: 0.3s ease-in-out;
+  height: 68px;
+  width: 75px;
+  line-height:68px;  
+  font-size:1.5em;
+  /* background:#00ff00; */
+}
+.inputUserIcon {
+  position:absolute;
+  top:0px;
+  margin:10px;
+  right: 40px;
+  color:white;
+}
+
+.inputPassIcon {
+  position:absolute;
+  top:35px;
+  margin:10px;
+  right: 40px;
+  color:white;
+}
+.activelogincontainer {
+  height:75px;
+  width:68px;
+  cursor:default;
+  transform: rotate(-90deg) translate(-160%,-305%);
+}
+.activeloginbutton {
+   height:75px;
+   width:68px;
+   line-height:75px;
+   transform: rotate(90deg);
+}
+input::-webkit-input-placeholder {
+  color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #e74c3c;
+}
+
